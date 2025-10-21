@@ -23,6 +23,7 @@ function draw(){
   drawWords();
 }
 
+// ricrea quando si cambiano le dimensioni
 function windowResized() {
   resizeCanvas(windowWidth / 2, windowHeight / 2);
   placedWords = [];
